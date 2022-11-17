@@ -1,5 +1,4 @@
 import React from 'react';
-import propTypes from 'prop-types'
 import { Link } from "react-router-dom";
 export default function Nav(props) {
 
@@ -8,7 +7,9 @@ export default function Nav(props) {
     <>
       <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`} style={{ position: "sticky", top: '0px',zIndex:"9999" }}>
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">{props.title}</Link>
+      
+          <Link className="navbar-brand text-center" to="/"><strong>{props.logo}</strong></Link>
+      
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -20,12 +21,12 @@ export default function Nav(props) {
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/blog">Blog</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">About</Link>
+              {/* <li className="nav-item">
+                <Link className="nav-link active" to="/about">About</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">Contact</Link>
-              </li>
+                <Link className="nav-link active" to="/contact">Contact</Link>
+              </li> */}
               {/* <li className="nav-item dropdown">
                 <span  className="nav-link dropdown-toggle active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   My Project
@@ -48,7 +49,5 @@ export default function Nav(props) {
     </>
 
   )
-  Nav.propTypes = {
-    title: propTypes.string
-  }
+ 
 }
