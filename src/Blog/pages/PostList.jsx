@@ -8,7 +8,7 @@ import { Seo } from '../helper/Seo';
 export default function PostList(props) {
   const [currentProgress, setCurrentProgress] = useState(10);
   const [post, setPost] = useState([]);
-  console.log(window.location.origin)
+
   props.progress(currentProgress)
 
   // Similar to componentDidMount and componentDidUpdate:
