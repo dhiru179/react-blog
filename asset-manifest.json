@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-blog/static/css/main.b54b52fa.css",
+    "main.js": "/react-blog/static/js/main.8d09d9c0.js",
+    "static/js/787.46167d67.chunk.js": "/react-blog/static/js/787.46167d67.chunk.js",
+    "static/media/landing.jpg": "/react-blog/static/media/landing.b2c88c644b710189f608.jpg",
+    "service-worker.js": "/react-blog/service-worker.js",
+    "index.html": "/react-blog/index.html",
+    "main.b54b52fa.css.map": "/react-blog/static/css/main.b54b52fa.css.map",
+    "main.8d09d9c0.js.map": "/react-blog/static/js/main.8d09d9c0.js.map",
+    "787.46167d67.chunk.js.map": "/react-blog/static/js/787.46167d67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54b52fa.css",
+    "static/js/main.8d09d9c0.js"
+  ]
+}

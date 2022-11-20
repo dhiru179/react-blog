@@ -1,0 +1,34 @@
+{
+    "blog": [
+        {
+            "id": 1,
+            "title": "write a sum program in php",
+            "slug": "write_a_program1",
+            "image": "https://i.picsum.photos/id/6/5000/3333.jpg?hmac=pq9FRpg2xkAQ7J9JTrBtyFcp9-qvlu8ycAi7bUHlL7I",
+            "post": "jjj"
+        },
+        {
+            "id": 1,
+            "title": "write a sum program in php",
+            "slug": "write_a_program2",
+            "image": "https://i.picsum.photos/id/6/5000/3333.jpg?hmac=pq9FRpg2xkAQ7J9JTrBtyFcp9-qvlu8ycAi7bUHlL7I",
+            "post": "vdvgfbfbfbf2"
+        },
+        {
+            "id": 1,
+            "title": "write a sum program in php",
+            "slug": "write_a_program",
+            "image": "https://i.picsum.photos/id/6/5000/3333.jpg?hmac=pq9FRpg2xkAQ7J9JTrBtyFcp9-qvlu8ycAi7bUHlL7I",
+            "post": "vdvgfbfbfbf"
+        },
+        {
+            "id": 1,
+            "title": "write a sum program in php",
+            "slug": "write_a_program",
+            "image": "https://i.picsum.photos/id/6/5000/3333.jpg?hmac=pq9FRpg2xkAQ7J9JTrBtyFcp9-qvlu8ycAi7bUHlL7I",
+            "post": "vdvgfbfbfbf"
+        }
+    ],
+    "techNews": [],
+    "programing": []
+}
